@@ -1,0 +1,78 @@
+.c-banner {
+  display: flex;
+}
+
+.c-banner__header {
+  height: 555px;
+  justify-content: center;
+  align-items: center;
+  background: url('../../images/header-bg-2x.png') bottom var(--parallaxY, 0)
+    right 0px no-repeat;
+  background-size: cover;
+}
+
+.c-game-presentation {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-game-presentation__description {
+  width: calc(100% - 500px);
+}
+
+.c-game-presentation__scroll {
+  position: sticky;
+  z-index: 1;
+  transition: top 0.3s ease-in-out;
+  top: 55px;
+}
+
+.c-game-presentation__description .title-2 {
+  margin-bottom: 20px;
+}
+
+.c-game-presentation__description p {
+  margin-bottom: 16px;
+}
+
+.c-hero {
+  width: 100%;
+  height: 500px;
+  background: url('../../images/kiloren-2x.jpg') bottom var(--parallaxY, 0)
+    right 0px no-repeat;
+  background-size: 100% 100%;
+}
+
+.c-history {
+  padding: 50px 0 100px 0;
+}
+
+.c-history .title-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-history__content {
+  display: inline-block;
+}
+
+.c-history__content img {
+  float: left;
+  margin-right: 20px;
+}
+
+.c-history__content .text-container {
+  font-size: 14px;
+}
+
+.c-history__content ul li::before {
+  content: '-';
+}
+
+.c-banner__pre-footer {
+  width: 100%;
+  height: 500px;
+  background: url('../../images/stormtroopers-2x.jpg') bottom
+    var(--parallaxY, 0) right 0px no-repeat;
+}

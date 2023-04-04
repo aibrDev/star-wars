@@ -1,0 +1,26 @@
+.container-header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.header-navigation {
+  width: 100%;
+  padding: 16px 0;
+  background-color: var(--header-bg);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  font-family: 'Open Sans Bold';
+  font-size: 14px;
+}

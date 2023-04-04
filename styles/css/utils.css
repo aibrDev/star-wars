@@ -1,0 +1,33 @@
+/*/ === Start utils === /*/
+.img-full-width {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper--large {
+  width: clamp(300px, calc(100vw - 70px), 1300px);
+  margin: 0 auto;
+}
+
+.title-1 {
+  font-family: 'Open Sans Bold';
+  font-size: 32px;
+}
+
+.title-2 {
+  font-family: 'Open Sans Bold';
+}
+
+.title-3 {
+  font-size: 14px;
+  font-family: 'Open Sans Bold';
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.italicBold-text {
+  font-family: 'Open Sans Bold Italic';
+}
+/*/ === End utils === /*/
